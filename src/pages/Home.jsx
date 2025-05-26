@@ -1,10 +1,10 @@
 import React, { Suspense,useState } from 'react'
-import { extend } from '@react-three/fiber';
+// import { extend } from '@react-three/fiber';
 import {Canvas} from '@react-three/fiber';
 import Loader from '../components/Loader';
 
 
-import {Island} from '../components/models/island.jsx';
+import {Island} from '../components/models/Island';
 import Sky from '../components/models/Sky';
 import Bird from '../components/models/Bird';
 import Plane from '../components/models/Plane';
@@ -20,7 +20,7 @@ const Home = () => {
   const adjustIslandForScreenSize = () =>{
     let screenScale = null;
     let screenPosition= [0,-6.5,-43];
-    let rotation =[0.1,4.7,0];
+    // let rotation =[0.1,4.7,0];
 
     if(window.innerWidth < 768){
       screenScale  = [0.9,0.9,0.9];
