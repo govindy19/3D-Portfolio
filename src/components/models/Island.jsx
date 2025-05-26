@@ -9,7 +9,7 @@
  * YOU DON'T HAVE TO WRITE EVERYTHING FROM SCRATCH
  */
 
-import { a } from "@react-spring/three";
+// import { a } from "@react-spring/three";
 import { useEffect, useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
@@ -21,7 +21,7 @@ export function Island({
   isRotating,
   setIsRotating,
   setCurrentStage,
-  currentFocusPoint,
+  // currentFocusPoint,
   ...props
 }) {
   const islandRef = useRef();

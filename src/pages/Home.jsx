@@ -4,7 +4,7 @@ import {Canvas} from '@react-three/fiber';
 import Loader from '../components/Loader';
 
 
-import {Island} from '../components/models/island';
+import {Island} from '../components/models/island.jsx';
 import Sky from '../components/models/Sky';
 import Bird from '../components/models/Bird';
 import Plane from '../components/models/Plane';
